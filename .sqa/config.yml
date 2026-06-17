@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub git:
         commands:
-        - /usr/bin/env sh .sqa/script.alabaster_dedicated_moth.sh
-        container: qc.acc_butter_serene_hornbill
+        - /usr/bin/env sh .sqa/script.sage_foolish_cassowary.sh
+        container: qc.acc_watermelon_serene_tortoise
   QC.Doc:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smoke_sweet_roadrunner.sh
-        container: qc.doc_aqua_intuitive_octopus
+        - /usr/bin/env sh .sqa/script.flax_tactful_koala.sh
+        container: qc.doc_moss_protective_griffin
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub git:
         commands:
-        - /usr/bin/env sh .sqa/script.mustard_timid_quokka.sh
-        container: qc.doc_mango_focused_rabbit
+        - /usr/bin/env sh .sqa/script.clementine_lucky_peacock.sh
+        container: qc.doc_coffee_fierce_lemur
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gamboge_eccentric_cobra.sh
-        container: qc.doc_nutmeg_insightful_mongoose
+        - /usr/bin/env sh .sqa/script.butter_goofy_condor.sh
+        container: qc.doc_periwinkle_perky_eagle
   QC.Lic:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ruby_rustic_parrot.sh
-        container: qc.lic_banana_positive_quokka
+        - /usr/bin/env sh .sqa/script.mauve_peaceful_newt.sh
+        container: qc.lic_lapis_helpful_turtle
   QC.Sec:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.banana_dramatic_jaguar.sh
-        container: qc.sec_forest_grumpy_quail
+        - /usr/bin/env sh .sqa/script.gunmetal_agile_capybara.sh
+        container: qc.sec_plum_assured_alligator
   QC.Sty:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.gold_careful_jellyfish.sh
-        container: qc.sty_dahlia_grateful_orca
+        - /usr/bin/env sh .sqa/script.royal_motivated_iguana.sh
+        container: qc.sty_coral_spontaneous_lobster
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.mango_resourceful_parrot.sh
-        container: qc.sty_peony_industrious_rhinoceros
+        - /usr/bin/env sh .sqa/script.sand_patient_octopus.sh
+        container: qc.sty_boysenberry_innocent_dragon
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ruby_dramatic_lionfish.sh
-        container: qc.sty_heather_authentic_ferret
+        - /usr/bin/env sh .sqa/script.chestnut_forgiving_cockatoo.sh
+        container: qc.sty_navy_clever_wolverine
   QC.Uni:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.isabelline_proactive_stingray.sh
-        container: qc.uni_periwinkle_empathetic_tapir
+        - /usr/bin/env sh .sqa/script.jasmine_philosophical_spider.sh
+        container: qc.uni_brown_inventive_jaguar
   QC.Ver:
     repos:
       github.com/ACTRIS-Data-Centre/actris-jupyter-hub get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paprika_resilient_kiwi.sh
-        container: qc.ver_beige_candid_eel
+        - /usr/bin/env sh .sqa/script.lavender_daring_frog.sh
+        container: qc.ver_rose_tranquil_vulture
 timeout: 5400
